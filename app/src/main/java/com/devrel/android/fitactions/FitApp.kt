@@ -63,6 +63,6 @@ class FitApp : Application() {
     fun main(args:Array<String>){
         val dg = Regex("Play_Store_App1.?")
         val hu = "Play_Store_App1"
-        println("$hu")
+        println(hu.matches(dg))
         
     }
